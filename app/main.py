@@ -13,7 +13,7 @@ app = FastAPI(
 )
 
 # Load the trained model
-MODEL_PATH = r'D:\my_projcts\job-salary-prediction\model\salary_predictor.pkl'
+MODEL_PATH = r"/app/model/salary_predictor.pkl"
 model = joblib.load(MODEL_PATH)
 
 # Define input data structure
